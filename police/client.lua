@@ -1,0 +1,5 @@
+RegisterCommand("police", function(source, args)
+    plr = PlayerId()
+    SetPlayerWantedLevel(plr, tonumber(args[1]), false)
+    SetPlayerWantedLevelNow(plr, false)
+end, false)

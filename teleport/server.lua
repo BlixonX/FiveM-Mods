@@ -1,0 +1,11 @@
+--RegisterServerEvent("registerPlayer")
+RegisterServerEvent("teleport")
+RegisterServerEvent("sendCoords")
+
+AddEventHandler("teleport", function(username, caller)
+    --TriggerClientEvent('chatMessage', -1, "2")
+    TriggerClientEvent("askCoords", -1, username)
+    AddEventHandler("sendCoords", function(xyz)
+        TriggerClientEvent("returnCoords", -1, xyz, caller)
+    end)
+end)

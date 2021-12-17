@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>vehicle - List</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script rel="script" type="text/javascript" src="work.js"></script>
+</head>
+<body>
+<main>
+    <div class="tab" id="tab1">
+        <button onclick="changeCat(this)" class="sel">🚗</button>
+        <button onclick="changeCat(this)" class="sel">🚙</button>
+        <button onclick="changeCat(this)" class="sel">🚚</button>
+        <button onclick="changeCat(this)" class="sel">🏎️</button>
+        <button onclick="changeCat(this)" class="sel">🚲</button>
+        <button onclick="changeCat(this)" class="sel">🚓</button>
+        <button onclick="changeCat(this)" class="sel">⛵</button>
+        <button onclick="changeCat(this)" class="sel">🚃</button>
+        <button onclick="changeCat(this)" class="sel">🚁</button>
+        <button onclick="changeCat(this)" class="sel">✈️</button>
+        <button onclick="changeCat(this)" class="sel">🚜</button>
+        <button onclick="changeCat(this)" class="sel">🛸</button>
+        <button onclick="changeCat(this)" class="sel">🛵</button>
+        <button onclick="changeCat(this)" class="sel">🛻</button>
+    </div>
+    <div class="tab" id="tab2">
+        <!-- <button onclick="selectCar()" class="slot"><img src="images//" alt=""></button>        <div class="colors" id="prime"></div>   -->
+        <div class="veh veh1">
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-CogCabrio.webp" alt="">cogcabrio</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Exemplar.webp" alt="">exemplar</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-F620.webp" alt="">f620</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Felon.webp" alt="">felon</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Felon2.webp" alt="">felon2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Jackal.webp" alt="">jackal</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Oracle.webp" alt="">oracle</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Oracle2.webp" alt="">oracle2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Sentinel.webp" alt="">sentinel</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Sentinel2.webp" alt="">sentinel2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Windsor.webp" alt="">windsor</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Windsor2.webp" alt="">windsor2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Zion.webp" alt="">zion</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/coupes/164px-Zion2.webp" alt="">zion2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Asea.webp" alt="">asea</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Asea2.webp" alt="">asea2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Asterope.webp" alt="">asterope</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Cog55.webp" alt="">cog55</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Cog552.webp" alt="">cog552</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Cognoscenti.webp" alt="">cognoscenti</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Cognoscenti2.webp" alt="">cognoscenti2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Emperor.webp" alt="">emperor</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Emperor2.webp" alt="">emperor2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Emperor3.webp" alt="">emperor3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Fugitive.webp" alt="">fugitive</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Glendale.webp" alt="">glendale</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/159px-Glendale2.webp" alt="">glendale2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Ingot.webp" alt="">ingot</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Intruder.webp" alt="">intruder</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Limo2.webp" alt="">limo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Premier.webp" alt="">premier</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Primo.webp" alt="">primo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Primo2.webp" alt="">primo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Regina.webp" alt="">regina</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Romero.webp" alt="">romero</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Stafford.webp" alt="">stafford</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Stanier.webp" alt="">stanier</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Stratum.webp" alt="">stratum</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Stretch.webp" alt="">stretch</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Superd.webp" alt="">superd</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Surge.webp" alt="">surge</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Tailgater.webp" alt="">tailgater</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Warrener.webp" alt="">warrener</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/sedans/164px-Washington.webp" alt="">washington</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Blade.webp" alt="">blade</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Buccaneer.webp" alt="">buccaneer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Buccaneer2.webp" alt="">buccaneer2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Chino.webp" alt="">chino</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Chino2.webp" alt="">chino2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Clique.webp" alt="">clique</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Coquette3.webp" alt="">coquette3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Deviant.webp" alt="">deviant</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dominator.webp" alt="">dominator</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dominator2.webp" alt="">dominator2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dominator3.webp" alt="">dominator3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dominator4.webp" alt="">dominator4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dominator5.webp" alt="">dominator5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dominator6.webp" alt="">dominator6</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dukes.webp" alt="">dukes</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Dukes2.webp" alt="">dukes2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/159px-Dukes3.webp" alt="">dukes3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Faction.webp" alt="">faction</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Faction2.webp" alt="">faction2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Faction3.webp" alt="">faction3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Ellie.webp" alt="">ellie</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Gauntlet.webp" alt="">gauntlet</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Gauntlet2.webp" alt="">gauntlet2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/152px-Gauntlet3.webp" alt="">gauntlet3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/141px-Gauntlet4.webp" alt="">gauntlet4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/159px-Gauntlet5.webp" alt="">gauntlet5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Hermes.webp" alt="">hermes</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Hotknife.webp" alt="">hotknife</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/141px-Hustler.webp" alt="">hustler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Impaler.webp" alt="">impaler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Impaler2.webp" alt="">impaler2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Impaler3.webp" alt="">impaler3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Impaler4.webp" alt="">impaler4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Imperator.webp" alt="">imperator</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Imperator2.webp" alt="">imperator2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Imperator3.webp" alt="">imperator3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Lurcher.webp" alt="">lurcher</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Moonbeam.webp" alt="">moonbeam</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Moonbeam2.webp" alt="">moonbeam2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Nightshade.webp" alt="">nightshade</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/137px-Peyote2.webp" alt="">peyote2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Pheonix.webp" alt="">phoenix</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Picador.webp" alt="">picador</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Ratloader.webp" alt="">ratloader</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Ratloader2.webp" alt="">ratloader2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Ruiner.webp" alt="">ruiner</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Ruiner2.webp" alt="">ruiner2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Ruiner3.webp" alt="">ruiner3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Sabregt.webp" alt="">sabregt</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Sabregt2.webp" alt="">sabregt2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/133px-SlamVan.webp" alt="">slamvan</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/133px-SlamVan2.webp" alt="">slamvan2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Slamvan3.webp" alt="">slamvan3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-SlamVan4.webp" alt="">slamvan4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-SlamVan5.webp" alt="">slamvan5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-SlamVan6.webp" alt="">slamvan6</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Stalion.webp" alt="">stalion</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Stalion2.webp" alt="">stalion2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Tampa.webp" alt="">tampa</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Tampa3.webp" alt="">tampa3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Tulip.webp" alt="">tulip</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Vamos.webp" alt="">vamos</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Vigero.webp" alt="">vigero</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Virgo.webp" alt="">virgo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Virgo2.webp" alt="">virgo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Virgo3.webp" alt="">virgo3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Voodoo.webp" alt="">voodoo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Voodoo2.webp" alt="">voodoo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Yosemite.webp" alt="">yosemite</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/164px-Yosemite2.webp" alt="">yosemite2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/1/muscle/159px-Yosemite3.webp" alt="">yosemite3</button>
+        </div>
+        <div class="veh veh2">
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Baller.webp" alt="">baller</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Baller2.webp" alt="">baller2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Baller3.webp" alt="">baller3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Baller4.webp" alt="">baller4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Baller5.webp" alt="">baller5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Baller6.webp" alt="">baller6</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Bjxl.webp" alt="">bjxl</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Cavalcade.webp" alt="">cavalcade</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Cavalcade2.webp" alt="">cavalcade2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Contender.webp" alt="">contender</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Dubsta.webp" alt="">dubsta</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Dubsta2.webp" alt="">dubsta2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Fq2.webp" alt="">fq2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Granger.webp" alt="">granger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Gresley.webp" alt="">gresley</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Habanero.webp" alt="">habanero</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Huntley.webp" alt="">huntley</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Landstalker.webp" alt="">landstalker</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/159px-Landstalker2.webp" alt="">landstalker2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Mesa.webp" alt="">mesa</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Mesa2.webp" alt="">mesa2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/111px-Novak.webp" alt="">novak</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Patriot.webp" alt="">patriot</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Patriot2.webp" alt="">patriot2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Radi.webp" alt="">radi</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/136px-Rebla.webp" alt="">rebla</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Rocoto.webp" alt="">rocoto</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Seminole.webp" alt="">seminole</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/159px-Seminole2.webp" alt="">seminole2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Serrano.webp" alt="">serrano</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Toros.webp" alt="">toros</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Xls.webp" alt="">xls</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/164px-Xls2.webp" alt="">xls2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/suvs/147px-0xF9E67C05.webp" alt="">squaddie</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/160px-Asbo.webp" alt="">asbo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Blista.webp" alt="">blista</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Brioso.webp" alt="">brioso</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/159px-Club.webp" alt="">club</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Dilettante.webp" alt="">dilettante</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Dilettante2.webp" alt="">dilettante2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Kanjo.webp" alt="">kanjo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Issi2.webp" alt="">issi2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Issi3.webp" alt="">issi3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Issi4.webp" alt="">issi4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Issi5.webp" alt="">issi5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Issi6.webp" alt="">issi6</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Panto.webp" alt="">panto</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Prairie.webp" alt="">prairie</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-Rhapsody.webp" alt="">rhapsody</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/140px-0x55365079.webp" alt="">brioso2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/2/compacts/164px-0x61FE4D6A.webp" alt="">weevil</button>
+        </div>
+        <div class="veh veh3">
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Benson.webp" alt="">benson</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Biff.webp" alt="">biff</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/151px-Cerberus.webp" alt="">cerberus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Cerberus2.webp" alt="">cerberus2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Cerberus3.webp" alt="">cerberus3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Hauler.webp" alt="">hauler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Hauler2.webp" alt="">hauler2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Mule.webp" alt="">mule</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Mule2.webp" alt="">mule2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Mule3.webp" alt="">mule3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Mule4.webp" alt="">mule4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Packer.webp" alt="">packer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Phantom.webp" alt="">phantom</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Phantom3.webp" alt="">phantom3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Pounder.webp" alt="">pounder</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Pounder2.webp" alt="">pounder2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Stockade.webp" alt="">stockade</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Stockade3.webp" alt="">stockade3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/3/164px-Terbyte.webp" alt="">terbyte</button>
+        </div>
+        <div class="veh veh4">
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/openwheel/142px-Formula.webp" alt="">formula</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/openwheel/164px-Formula2.webp" alt="">formula2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/openwheel/159px-Openwheel1.webp" alt="">openwheel1</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/openwheel/159px-Openwheel2.webp" alt="">openwheel2</button>
+
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Alpha.webp" alt="">alpha</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Banshee.webp" alt="">banshee</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Bestiagts.webp" alt="">bestiagts</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Blista2.webp" alt="">blista2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Blista3.webp" alt="">blista3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Buffalo.webp" alt="">buffalo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Buffalo2.webp" alt="">buffalo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Buffalo3.webp" alt="">buffalo3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Carbonizzare.webp" alt="">carbonizzare</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Comet2.webp" alt="">comet2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Comet3.webp" alt="">comet3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Comet4.webp" alt="">comet4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/153px-Comet5.webp" alt="">comet5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Coquette.webp" alt="">coquette</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/159px-Coquette4.webp" alt="">coquette4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/149px-Drafter.webp" alt="">drafter</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Deveste.webp" alt="">deveste</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Elegy.webp" alt="">elegy</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Elegy2.webp" alt="">elegy2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Feltzer2.webp" alt="">feltzer2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/150px-Flashgt.webp" alt="">flashgt</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Furoregt.webp" alt="">furoregt</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Fusilade.webp" alt="">fusilade</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Futo.webp" alt="">futo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/153px-Gb200.webp" alt="">gb200</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Hotring.webp" alt="">hotring</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Komoda.webp" alt="">komoda</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Imorgon.webp" alt="">imorgon</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/121px-Issi7.webp" alt="">issi7</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-ItaliGTO.webp" alt="">italigto</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/146px-Jugular.webp" alt="">jugular</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Jester.webp" alt="">jester</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Jester2.webp" alt="">jester2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/160px-Jester3.webp" alt="">jester3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Khamelion.webp" alt="">khamelion</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Kuruma.webp" alt="">kuruma</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/130px-Locust.webp" alt="">locust</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Lynx2.webp" alt="">lynx</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Massacro.webp" alt="">massacro</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Massacro2.webp" alt="">massacro2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/138px-Neo.webp" alt="">neo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Neon.webp" alt="">neon</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Ninef.webp" alt="">ninef</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Ninef2.webp" alt="">ninef2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Omnis.webp" alt="">omnis</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/141px-Paragon.webp" alt="">paragon</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/148px-Paragon2.webp" alt="">paragon2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Pariah.webp" alt="">pariah</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Penumbra.webp" alt="">penumbra</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/159px-Penumbra2.webp" alt="">penumbra2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Raiden.webp" alt="">raiden</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Rapidgt.webp" alt="">rapidgt</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Rapidgt2.webp" alt="">rapidgt2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Raptor.webp" alt="">raptor</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Revolter.webp" alt="">revolter</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Ruston.webp" alt="">ruston</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Schafter2.webp" alt="">schafter2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Schafter3.webp" alt="">schafter3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Schafter4.webp" alt="">schafter4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Schafter5.webp" alt="">schafter5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Schafter6.webp" alt="">schafter6</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Schlagen.webp" alt="">schlagen</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Schwarzer.webp" alt="">schwarzer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Sentinel3.webp" alt="">sentinel3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Seven70.webp" alt="">seven70</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Specter.webp" alt="">specter</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Specter2.webp" alt="">specter2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Streiter.webp" alt="">streiter</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Sugoi.webp" alt="">sugoi</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Sultan.webp" alt="">sultan</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/163px-Sultan2.webp" alt="">sultan2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Surano.webp" alt="">surano</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Tampa2.webp" alt="">tampa2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Tropos.webp" alt="">tropos</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Verlierer2.webp" alt="">verlierer2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-Vstr.webp" alt="">vstr</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-ZR380.webp" alt="">zr380</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-ZR3802.webp" alt="">zr3802</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-ZR3803.webp" alt="">zr3803</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-0xBB78956A.webp" alt="">italirsx</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/157px-0xCCE5C8FA.webp" alt="">veto</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sports/164px-0xA703E4A9.webp" alt="">veto2</button>
+
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Ardent.webp" alt="">ardent</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Btype.webp" alt="">btype</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Btype2.webp" alt="">btype2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Btype3.webp" alt="">btype3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Casco.webp" alt="">casco</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Cheetah2.webp" alt="">cheetah2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Coquette2.webp" alt="">coquette2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/144px-Dynasty.webp" alt="">dynasty</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Fagaloa.webp" alt="">fagaloa</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Feltzer3.webp" alt="">feltzer3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Gt500.webp" alt="">gt500</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Infernus2.webp" alt="">infernus2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Jb700.webp" alt="">jb700</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/162px-Jb7002.webp" alt="">jb7002</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Mamba.webp" alt="">mamba</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Manana.webp" alt="">manana</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/159px-Manana2.webp" alt="">manana2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/136px-Michelli.webp" alt="">michelli</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Monroe.webp" alt="">monroe</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/143px-Nebula.webp" alt="">nebula</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Peyote.webp" alt="">peyote</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/159px-Peyote3.webp" alt="">peyote3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Pigalle.webp" alt="">pigalle</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Rapidgt3.webp" alt="">rapidgt3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Retinue.webp" alt="">retinue</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/162px-Retinue2.webp" alt="">retinue2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Savestra.webp" alt="">savestra</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Stinger.webp" alt="">stinger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Stingergt.webp" alt="">stingergt</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Stromberg.webp" alt="">stromberg</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Swinger.webp" alt="">swinger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Torero.webp" alt="">torero</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Tornado.webp" alt="">tornado</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Tornado2.webp" alt="">tornado2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Tornado3.webp" alt="">tornado3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Tornado4.webp" alt="">tornado4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Tornado5.webp" alt="">tornado5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Tornado6.webp" alt="">tornado6</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Turismo2.webp" alt="">turismo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Viseris.webp" alt="">viseris</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/156px-Z190.webp" alt="">z190</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Ztype.webp" alt="">ztype</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/140px-Zion3.webp" alt="">zion3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-Cheburek.webp" alt="">cheburek</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/sportsclassic/164px-0x56C8A5EF.webp" alt="">toreador</button>
+
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Adder.webp" alt="">adder</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Autarch.webp" alt="">autarch</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Banshee2.webp" alt="">banshee2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Bullet.webp" alt="">bullet</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Cheetah.webp" alt="">cheetah</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Cyclone.webp" alt="">cyclone</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Entity2.webp" alt="">entity2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Entityxf.webp" alt="">entityxf</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/132px-Emerus.webp" alt="">emerus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Fmj.webp" alt="">fmj</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Furia.webp" alt="">furia</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Gp1.webp" alt="">gp1</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Infernus.webp" alt="">infernus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Italigtb.webp" alt="">italigtb</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Italigtb2.webp" alt="">italigtb2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/122px-Krieger.webp" alt="">krieger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Le7b.webp" alt="">le7b</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Nero.webp" alt="">nero</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Nero2.webp" alt="">nero2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Osiris.webp" alt="">osiris</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Penetrator.webp" alt="">penetrator</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Pfister811.webp" alt="">pfister811</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Prototipo.webp" alt="">prototipo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Reaper.webp" alt="">reaper</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/126px-S80.webp" alt="">s80</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Sc1.webp" alt="">sc1</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Sheava.webp" alt="">sheava</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Sultanrs.webp" alt="">sultanrs</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-T20.webp" alt="">t20</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Taipan.webp" alt="">taipan</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Tempesta.webp" alt="">tempesta</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Tezeract.webp" alt="">tezeract</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/112px-Thrax.webp" alt="">thrax</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/159px-Tigon.webp" alt="">tigon</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Turismor.webp" alt="">turismor</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Tyrant.webp" alt="">tyrant</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Tyrus.webp" alt="">tyrus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Vacca.webp" alt="">vacca</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Vagner.webp" alt="">vagner</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Visione.webp" alt="">visione</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Voltic.webp" alt="">voltic</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Voltic2.webp" alt="">voltic2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Xa21.webp" alt="">xa21</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/164px-Zentorno.webp" alt="">zentorno</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/4/super/110px-Zorrusso.webp" alt="">zorrusso</button>
+        </div>
+        <div class="veh veh5">
+            <button onclick="selectCar(this)" class="slot"><img src="images/5/164px-Bmx.png" alt="">bmx</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/5/164px-Cruiser.png" alt="">cruiser</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/5/164px-Fixter.png" alt="">fixter</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/5/164px-Scorcher.png" alt="">scorcher</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/5/164px-TriBike.png" alt="">tribike</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/5/164px-TriBike2.png" alt="">tribike2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/5/164px-TriBike3.png" alt="">tribike3</button>
+        </div>
+        <div class="veh veh6">
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Ambulance.webp" alt="">ambulance</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-FBI.webp" alt="">fbi</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-FBI2.webp" alt="">fbi2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-FireTruck.webp" alt="">firetruk</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-LGuard.webp" alt="">lguard</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-PBus.webp" alt="">pbus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Police.webp" alt="">police</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Police2.webp" alt="">police2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Police3.webp" alt="">police3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Police4.webp" alt="">police4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Policeb.webp" alt="">policeb</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Polmav.webp" alt="">polmav</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-PoliceOld1.webp" alt="">policeold1</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-PoliceOld2.webp" alt="">policeold2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-PoliceT.webp" alt="">policet</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Pranger.webp" alt="">pranger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Riot.webp" alt="">riot</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Riot2.webp" alt="">riot2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Sheriff.webp" alt="">sheriff</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/6/164px-Sheriff2.webp" alt="">sheriff2</button>
+        </div>
+        <div class="veh veh7">
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Dinghy.webp" alt="">dinghy</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Dinghy2.webp" alt="">dinghy2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Dinghy3.webp" alt="">dinghy3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Dinghy4.webp" alt="">dinghy4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Jetmax.webp" alt="">jetmax</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Marquis.webp" alt="">marquis</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Seashark.webp" alt="">seashark</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Seashark2.webp" alt="">seashark2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Seashark3.webp" alt="">seashark3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Speeder.webp" alt="">speeder</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Speeder2.webp" alt="">speeder</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Squalo.webp" alt="">squalo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Submersible.webp" alt="">submersible</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Submersible2.webp" alt="">submersible2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Suntrap.webp" alt="">suntrap</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Toro.webp" alt="">toro</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Toro2.webp" alt="">toro2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Tropic.webp" alt="">tropic</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Tropic2.webp" alt="">tropic2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Tug.webp" alt="">tug</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/142px-0x9A474B5E.webp" alt="">avisa</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/157px-0xC58DA34A.webp" alt="">dinighy5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-0x4FAF0D70.webp" alt="">kosatka</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-0x6EF89CCC.webp" alt="">longfin</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-0xEF813606.webp" alt="">patrolboat</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/7/164px-Predator.webp" alt="">predator</button>
+        </div>
+        <div class="veh veh8">
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Airbus.webp" alt="">airbus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Brickade.webp" alt="">brickade</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Bus.webp" alt="">bus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Coach.webp" alt="">coach</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Pbus2.webp" alt="">pbus2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Rallytruck.webp" alt="">rallytruck</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Rentalbus.webp" alt="">rentalbus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Taxi.webp" alt="">taxi</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Tourbus.webp" alt="">tourbus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Trash.webp" alt="">trash</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Trash2.webp" alt="">trash2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/service/164px-Wastelander.webp" alt="">wastelander</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/trains/133px-Freight.webp" alt="">freight</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/trains/133px-FreightCar.webp" alt="">freightcar</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/trains/133px-FreightCont1.webp" alt="">freightcont1</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/trains/133px-FreightCont2.webp" alt="">freightcont2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/trains/133px-FreightGrain.webp" alt="">freightgrain</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/trains/142px-Metrotrain.webp" alt="">metrotrain</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/trains/133px-TankerCar.webp" alt="">tankercar</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Bison.webp" alt="">bison</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Bison2.webp" alt="">bison2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Bison3.webp" alt="">bison3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-BobcatXL.webp" alt="">bobcatxl</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Boxville.webp" alt="">boxville</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Boxville2.webp" alt="">boxville2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Boxville3.webp" alt="">boxville3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Boxville4.webp" alt="">boxville4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Boxville5.webp" alt="">boxville5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Burrito.webp" alt="">burrito</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Burrito2.webp" alt="">burrito2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Burrito3.webp" alt="">burrito3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Burrito4.webp" alt="">burrito4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Burrito5.webp" alt="">burrito5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Camper.webp" alt="">camper</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-GBurrito.webp" alt="">gburrito</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-GBurrito2.webp" alt="">gburrito2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Journey.webp" alt="">journey</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Minivan.webp" alt="">minivan</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Minivan2.webp" alt="">minivan2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Paradise.webp" alt="">paradise</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Pony.webp" alt="">pony</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Pony2.webp" alt="">pony2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Rumpo.webp" alt="">rumpo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Rumpo2.webp" alt="">rumpo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Rumpo3.webp" alt="">rumpo3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Speedo.webp" alt="">speedo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Speedo2.webp" alt="">speedo2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/164px-Speedo4.webp" alt="">speedo4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Surfer.webp" alt="">surfer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Surfer2.webp" alt="">surfer2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Taco.webp" alt="">taco</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/133px-Youga.webp" alt="">youga</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/164px-Youga2.webp" alt="">youga2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/8/vans/159px-Youga3.webp" alt="">youga3</button>
+        </div>
+        <div class="veh veh9">
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Akula.webp" alt="">akula</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Annihilator.webp" alt="">annihilator</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Buzzard.webp" alt="">buzzard</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Buzzard2.webp" alt="">buzzard2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Cargobob.webp" alt="">cargobob</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Cargobob2.webp" alt="">cargobob2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Cargobob3.webp" alt="">cargobob3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Cargobob4.webp" alt="">cargobob4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Frogger.webp" alt="">frogger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Frogger2.webp" alt="">frogger2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Havok.webp" alt="">havok</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Hunt.webp" alt="">hunter</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Maverick.webp" alt="">maverick</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Savage.webp" alt="">savage</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Seasparrow.webp" alt="">seasparrow</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Skylift.webp" alt="">skylift</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Supervolito.webp" alt="">supervolito</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Supervolito2.webp" alt="">supervolito2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Swift.webp" alt="">swift</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Swift2.webp" alt="">swift2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Valkyrie.webp" alt="">valkyrie</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Valkyrie2.webp" alt="">valkyrie2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-Volatus.webp" alt="">volatus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/164px-0x11962E49.webp" alt="">annihilator2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/162px-0x494752F7.webp" alt="">seasparrow2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/9/145px-0x5F017E6B.webp" alt="">seasparrow3</button>
+        </div>
+        <div class="veh veh10">
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Alphaz1.png" alt="">alphaz1</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Avenger.png" alt="">avenger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Avenger2.png" alt="">avenger2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Besra.png" alt="">besra</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Blimp.png" alt="">blimp</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Blimp2.png" alt="">blimp2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Blimp3.png" alt="">blimp3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Bombushka.png" alt="">bombushka</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Cargoplane.png" alt="">cargoplane</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Cuban800.png" alt="">cuban800</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Dodo.png" alt="">dodo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Duster.png" alt="">duster</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Howard.png" alt="">howard</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Hydra.png" alt="">hydra</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Jet.png" alt="">jet</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Lazer.png" alt="">lazer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/133px-Luxor.png" alt="">luxor</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Luxor2.png" alt="">luxor2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Mammatus.png" alt="">mammatus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Microlight.png" alt="">microlight</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Miljet.png" alt="">miljet</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Mogul.png" alt="">mogul</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Molotok.png" alt="">molotok</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Nimbus.png" alt="">nimbus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Nokota.png" alt="">nokota</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Pyro.png" alt="">pyro</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Rogue.png" alt="">rogue</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Seabreeze.png" alt="">seabreeze</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Shamal.png" alt="">shamal</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Starling.png" alt="">starling</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Strikeforce.png" alt="">strikeforce</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Stunt.png" alt="">stunt</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Titan.png" alt="">titan</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Tula.png" alt="">tula</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/133px-Velum.png" alt="">velum</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Velum2.png" alt="">velum2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Vestra.png" alt="">vestra</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-Volatol.png" alt="">volatol</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/10/164px-0xEA313705.png" alt="">alkonost</button>
+        </div>
+        <div class="veh veh11">
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Bulldozer.webp" alt="">bulldozer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Cutter.webp" alt="">cutter</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Dump.webp" alt="">dump</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Flatbed.webp" alt="">flatbed</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Guardian.webp" alt="">guardian</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Handler.webp" alt="">handler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Mixer.webp" alt="">mixer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Mixer2.webp" alt="">mixer2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-Rubble.webp" alt="">rubble</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-TipTruck.webp" alt="">tiptruck</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/industrial/164px-TipTruck2.webp" alt="">tiptruck2</button>
+
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Airtug.webp" alt="">airtug</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Caddy.webp" alt="">caddy</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Caddy2.webp" alt="">caddy2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Caddy3.webp" alt="">caddy3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Docktug.webp" alt="">docktug</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Forklift.webp" alt="">forklift</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Mower.webp" alt="">mower</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Ripley.webp" alt="">ripley</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Sadler.webp" alt="">sadler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Sadler2.webp" alt="">sadler2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Scrap.webp" alt="">scrap</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Towtruck.webp" alt="">towtruck</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Towtruck2.webp" alt="">towtruck2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Tractor.webp" alt="">tractor</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Tractor2.webp" alt="">tractor2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Tractor3.webp" alt="">tractor3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Utillitruck.webp" alt="">utillitruck</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Utillitruck2.webp" alt="">utillitruck2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-Utillitruck3.webp" alt="">utillitruck3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/11/utillity/164px-0xC1A8A914.webp" alt="">slamtruck</button>
+        </div>
+        <div class="veh veh12">
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Apc.webp" alt="">apc</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Barracks.webp" alt="">barracks</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Barracks2.webp" alt="">barracks2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Barracks3.webp" alt="">barracks3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Barrage.webp" alt="">barrage</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Chernobog.webp" alt="">chernobog</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Crusader.webp" alt="">crusader</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Halftrack.webp" alt="">halftrack</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Khanjali.png" alt="">khanjali</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Minitank.webp" alt="">minitank</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Rhino.webp" alt="">rhino</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Scarab.webp" alt="">scarab</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Scarab2.webp" alt="">scarab2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Scarab3.webp" alt="">scarab3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Thruster.webp" alt="">thruster</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/164px-Trailersmall2.webp" alt="">trailersmall2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/147px-0x780FFBD2.webp" alt="">vetir</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/offroad/164px-Insurgent.webp" alt="">insurgent</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/offroad/164px-Insurgent2.webp" alt="">insurgent2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/offroad/164px-Insurgent3.webp" alt="">insurgent3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/offroad/164px-Mesa3.webp" alt="">mesa3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/offroad/164px-Menacer.webp" alt="">menacer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/offroad/164px-Nightshark.webp" alt="">nightshark</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/sportsclassic/164px-Deluxo.webp" alt="">deluxo</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/sports/164px-Kuruma2.webp" alt="">kuruma2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/motorcycles/164px-Oppressor.webp" alt="">oppressor</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/motorcycles/164px-Oppressor2.webp" alt="">oppressor2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/super/164px-Scramjet.webp" alt="">scramjet</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/12/super/164px-Vigilante.webp" alt="">vigilante</button>
+        </div>
+        <div class="veh veh13">
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Akuma.webp" alt="">akuma</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Avarus.webp" alt="">avarus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Bagger.webp" alt="">bagger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Bati.webp" alt="">bati</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Bati2.webp" alt="">bati2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-BF400.webp" alt="">bf400</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-CarbonRS.webp" alt="">carbonrs</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Chimera.webp" alt="">chimera</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Cliffhanger.webp" alt="">cliffhanger</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Daemon.webp" alt="">daemon</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Daemon2.webp" alt="">daemon2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Defiler.webp" alt="">defiler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Deathbike.webp" alt="">deathbike</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Deathbike2.webp" alt="">deathbike2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Deathbike3.webp" alt="">deathbike3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Diablous.webp" alt="">diablous</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Diablous2.webp" alt="">diablous2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Double.webp" alt="">double</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Enduro.webp" alt="">enduro</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Esskey.webp" alt="">esskey</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Faggio.webp" alt="">faggio</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Faggio2.webp" alt="">faggio2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Faggio3.webp" alt="">faggio3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Fcr.webp" alt="">fcr</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Fcr2.webp" alt="">fcr2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Gargoyle.webp" alt="">gargoyle</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Hakuchou.webp" alt="">hakuchou</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Hakuchou2.webp" alt="">hakuchou2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Hexer.webp" alt="">hexer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Innovation.webp" alt="">innovation</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Lectro.webp" alt="">lectro</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Manchez.webp" alt="">manchez</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Nemesis.webp" alt="">nemesis</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Nightblade.webp" alt="">nightblade</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Pcj.webp" alt="">pcj</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Ratbike.webp" alt="">ratbike</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Ruffian.webp" alt="">ruffian</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/121px-Rrocket.webp" alt="">rrocket</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/148px-Sanchez.webp" alt="">sanchez</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Sanchez2.webp" alt="">sanchez2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Sanctus.webp" alt="">sanctus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Shotaro.webp" alt="">shotaro</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Sovereign.webp" alt="">sovereign</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Stryder.webp" alt="">stryder</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Thrust.webp" alt="">thrust</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Vader.webp" alt="">vader</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Vindicator.webp" alt="">vindicator</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Vortex.webp" alt="">vortex</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Wolfsbane.webp" alt="">wolfsbane</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Zombiea.webp" alt="">zombiea</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/164px-Zombieb.webp" alt="">zombieb</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/13/137px-0x40C332A3.webp" alt="">manchez2</button>
+        </div>
+        <div class="veh veh14">
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Bfinject.webp" alt="">bfinjection</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Bifta.webp" alt="">bifta</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Blazer.webp" alt="">blazer</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Blazer2.webp" alt="">blazer2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Blazer3.webp" alt="">blazer3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Blazer4.webp" alt="">blazer4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Blazer5.webp" alt="">blazer5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Bodhi2.webp" alt="">bodhi2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Brawler.webp" alt="">brawler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Bruiser.webp" alt="">bruiser</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Bruiser2.webp" alt="">bruiser2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Bruiser3.webp" alt="">bruiser3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Brutus.webp" alt="">brutus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Brutus2.webp" alt="">brutus2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Brutus3.webp" alt="">brutus3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/157px-Caracara.webp" alt="">caracara</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/115px-Caracara2.webp" alt="">caracara2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Dloader.webp" alt="">dloader</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Dubsta3.webp" alt="">dubsta3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Dune.webp" alt="">dune</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Dune2.webp" alt="">dune2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Dune3.webp" alt="">dune3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Dune4.webp" alt="">dune4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Dune5.webp" alt="">dune5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/163px-Everon.webp" alt="">everon</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Freecrawler.webp" alt="">freecrawler</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/116px-Hellion.webp" alt="">hellion</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Kalahari.webp" alt="">kalahari</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/150px-Kamacho.webp" alt="">kamacho</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Marshall.webp" alt="">marshall</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Monster.webp" alt="">monster</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Monster3.webp" alt="">monster3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Monster4.webp" alt="">monster4</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Monster5.webp" alt="">monster5</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Outlaw.webp" alt="">outlaw</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Rancherxl.webp" alt="">rancherxl</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Rancherxl2.webp" alt="">rancherxl2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Rebel.webp" alt="">rebel</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Rebel2.webp" alt="">rebel2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-RCBandito.webp" alt="">rcbandito</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Riata.webp" alt="">riata</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Sandking.webp" alt="">sandking</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Sandking2.webp" alt="">sandking2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Technical.webp" alt="">technical</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Technical2.webp" alt="">technical2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Technical3.webp" alt="">technical3</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Trophytruck.webp" alt="">trophytruck</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/164px-Trophytruck2.webp" alt="">trophytruck2</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/147px-Vagrant.webp" alt="">vagrant</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/123px-Zhaba.webp" alt="">zhaba</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/130px-0x11CBC051.webp" alt="">verus</button>
+            <button onclick="selectCar(this)" class="slot"><img src="images/14/159px-0xF376F1E6.webp" alt="">winky</button>
+        </div>
+    </div>
+    <div class="tab" id="tab3">
+        <div class="tag">Primary</div>
+        <div class="colors" id="prime">
+            <button onclick="getColorPrime(this)" class="c-slot" id="0" style="background: #000">Black</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="147" style="background: #000">Carbon Black</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="1" style="background: #000">Graphite</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="11" style="background: #000">Anhracite Black</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="2" style="background: #000">Black Steel</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="3" style="background: #000">Dark Steel</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="4" style="background: #888">Silver</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="5" style="background: #888">Bluish Silver</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="6" style="background: #888">Rolled Steel</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="7" style="background: #888">Shadow Silver</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="8" style="background: #888">Stone Silver</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="9" style="background: #888">Midnight Silver</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="10" style="background: #888">Cast Iron Silver</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="27" style="background: #F00">Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="28" style="background: #F00">Torino Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="29" style="background: #F00">Formula Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="150" style="background: #F00">Lava Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="30" style="background: #F00">Blaze Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="31" style="background: #F00">Grace Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="32" style="background: #F00">Garnet Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="33" style="background: #F00">Sunset Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="34" style="background: #F00">Cabernet Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="143" style="background: #F00">Wine Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="35" style="background: #F00">Candy Red</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="135" style="background: #FF42EC">Hot Pink</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="137" style="background: #FF42EC">Pfsiter Pink</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="136" style="background: #FF42EC">Salmon Pink</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="36" style="background: #F82">Sunrise Orange</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="38" style="background: #F82">Orange</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="138" style="background: #F82">Bright Orange</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="99" style="background: #D4AF37">Gold</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="90" style="background: #CD7F32">Bronze</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="88" style="background: #FF0">Yellow</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="89" style="background: #FF0">Race Yellow</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="91" style="background: #FF0">Dew Yellow</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="49" style="background: #3F3">Dark Green</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="50" style="background: #3F3">Racing Green</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="51" style="background: #3F3">Sea Green</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="52" style="background: #3F3">Olive Green</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="53" style="background: #3F3">Bright Green</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="54" style="background: #3F3">Gasoline Green</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="92" style="background: #3F3">Lime Green</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="141" style="background: #00F">Midnight Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="61" style="background: #00F">Galaxy Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="62" style="background: #00F">Dark Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="63" style="background: #00F">Saxon Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="64" style="background: #00F">Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="65" style="background: #00F">Mariner Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="66" style="background: #00F">Harbor Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="67" style="background: #00F">Diamond Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="68" style="background: #00F">Surf Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="69" style="background: #00F">Nautical Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="73" style="background: #00F">Racing Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="70" style="background: #00F">Ultra Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="74" style="background: #00F">Light Blue</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="96" style="background: #A40">Chocolate Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="101" style="background: #A40">Creeen Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="95" style="background: #A40">Creeen Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="94" style="background: #A40">Feltzer Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="97" style="background: #A40">Maple Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="103" style="background: #A40">Beechwood Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="104" style="background: #A40">Sienna Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="98" style="background: #A40">Saddle Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="100" style="background: #A40">Moss Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="102" style="background: #A40">Woodbeech Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="99" style="background: #A40">Straw Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="105" style="background: #A40">Sandy Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="106" style="background: #A40">Bleached Brown</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="71" style="background: #A0F">Schafter Purple</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="72" style="background: #A0F">Spinnaker Purple</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="142" style="background: #A0F">Midnight Purple</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="145" style="background: #A0F">Bright Purple</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="107" style="background: #ffd7af">Cream</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="111" style="background: #FFF">Ice White</button>
+            <button onclick="getColorPrime(this)" class="c-slot" id="112" style="background: #FFF">Frost White</button>
+        </div>
+        <div class="tag" style="border-top: none">Secondary</div>
+        <div class="colors" id="second">
+            <button onclick="getColorSecond(this)" class="c-slot" id="0" style="background: #000">Black</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="147" style="background: #000">Carbon Black</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="1" style="background: #000">Graphite</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="11" style="background: #000">Anhracite Black</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="2" style="background: #000">Black Steel</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="3" style="background: #000">Dark Steel</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="4" style="background: #888">Silver</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="5" style="background: #888">Bluish Silver</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="6" style="background: #888">Rolled Steel</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="7" style="background: #888">Shadow Silver</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="8" style="background: #888">Stone Silver</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="9" style="background: #888">Midnight Silver</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="10" style="background: #888">Cast Iron Silver</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="27" style="background: #F00">Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="28" style="background: #F00">Torino Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="29" style="background: #F00">Formula Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="150" style="background: #F00">Lava Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="30" style="background: #F00">Blaze Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="31" style="background: #F00">Grace Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="32" style="background: #F00">Garnet Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="33" style="background: #F00">Sunset Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="34" style="background: #F00">Cabernet Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="143" style="background: #F00">Wine Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="35" style="background: #F00">Candy Red</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="135" style="background: #FF42EC">Hot Pink</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="137" style="background: #FF42EC">Pfsiter Pink</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="136" style="background: #FF42EC">Salmon Pink</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="36" style="background: #F82">Sunrise Orange</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="38" style="background: #F82">Orange</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="138" style="background: #F82">Bright Orange</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="99" style="background: #D4AF37">Gold</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="90" style="background: #CD7F32">Bronze</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="88" style="background: #FF0">Yellow</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="89" style="background: #FF0">Race Yellow</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="91" style="background: #FF0">Dew Yellow</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="49" style="background: #3F3">Dark Green</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="50" style="background: #3F3">Racing Green</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="51" style="background: #3F3">Sea Green</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="52" style="background: #3F3">Olive Green</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="53" style="background: #3F3">Bright Green</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="54" style="background: #3F3">Gasoline Green</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="92" style="background: #3F3">Lime Green</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="141" style="background: #00F">Midnight Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="61" style="background: #00F">Galaxy Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="62" style="background: #00F">Dark Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="63" style="background: #00F">Saxon Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="64" style="background: #00F">Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="65" style="background: #00F">Mariner Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="66" style="background: #00F">Harbor Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="67" style="background: #00F">Diamond Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="68" style="background: #00F">Surf Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="69" style="background: #00F">Nautical Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="73" style="background: #00F">Racing Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="70" style="background: #00F">Ultra Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="74" style="background: #00F">Light Blue</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="96" style="background: #A40">Chocolate Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="101" style="background: #A40">Creeen Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="95" style="background: #A40">Creeen Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="94" style="background: #A40">Feltzer Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="97" style="background: #A40">Maple Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="103" style="background: #A40">Beechwood Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="104" style="background: #A40">Sienna Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="98" style="background: #A40">Saddle Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="100" style="background: #A40">Moss Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="102" style="background: #A40">Woodbeech Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="99" style="background: #A40">Straw Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="105" style="background: #A40">Sandy Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="106" style="background: #A40">Bleached Brown</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="71" style="background: #A0F">Schafter Purple</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="72" style="background: #A0F">Spinnaker Purple</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="142" style="background: #A0F">Midnight Purple</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="145" style="background: #A0F">Bright Purple</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="107" style="background: #ffd7af">Cream</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="111" style="background: #FFF">Ice White</button>
+            <button onclick="getColorSecond(this)" class="c-slot" id="112" style="background: #FFF">Frost White</button>
+        </div>
+        <div id="execButtons">
+            <button onclick="exit()">Exit</button>
+            <button onclick="spawn()">Spawn</button>
+        </div>
+    </div>
+</main>
+</body>
+</html>

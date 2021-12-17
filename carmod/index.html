@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tytuł</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script rel="script" type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<main>
+    <div class="window">
+        <header>
+            <button class="window-button" onclick="move(this.parentElement.parentElement)">Move (Click to switch)</button>
+            <div class="window-name">Spoilers</div>
+            <button class="window-button" onclick="destroy(this.parentElement.parentElement)">X</button>
+        </header>
+        <div class="slider">
+            <div style="grid-area: min">0</div>
+            <input type="range" oninput="changeMod(this)">
+            <div style="grid-area: max">10</div>
+            <div style="grid-area: value">0</div>
+        </div>
+    </div>
+
+</main>
+<div id="tab">
+    <div id="menu">
+        <button class="mod" onclick="openWindow(this)">Spoilers</button>
+        <button class="mod" onclick="openWindow(this)">Front Bumper</button>
+        <button class="mod" onclick="openWindow(this)">Rear Bumper</button>
+        <button class="mod" onclick="openWindow(this)">Side Skirt</button>
+        <button class="mod" onclick="openWindow(this)">Exhaust</button>
+        <button class="mod" onclick="openWindow(this)">Frame</button>
+        <button class="mod" onclick="openWindow(this)">Grille</button>
+        <button class="mod" onclick="openWindow(this)">Hood</button>
+        <button class="mod" onclick="openWindow(this)">Fender</button>
+        <button class="mod" onclick="openWindow(this)">Right Fender</button>
+        <button class="mod" onclick="openWindow(this)">Roof</button>
+        <button class="mod" onclick="openWindow(this)">Engine</button>
+        <button class="mod" onclick="openWindow(this)">Brakes</button>
+        <button class="mod" onclick="openWindow(this)">Transmission</button>
+        <button class="mod" onclick="openWindow(this)">Horns</button>
+        <button class="mod" onclick="openWindow(this)">Suspension</button>
+        <button class="mod" onclick="openWindow(this)">Armor</button>
+        <button class="mod" onclick="openWindow(this)">UNK17</button>
+        <button class="mod" onclick="openWindow(this)">Turbo</button>
+        <button class="mod" onclick="openWindow(this)">UNK19</button>
+        <button class="mod" onclick="openWindow(this)">Tire Smoke</button>
+        <button class="mod" onclick="openWindow(this)">UNK21</button>
+        <button class="mod" onclick="openWindow(this)">Xenon Headlights</button>
+        <button class="mod" onclick="openWindow(this)">Front Wheels</button>
+        <button class="mod" onclick="openWindow(this)">Back Wheels</button>
+    </div>
+    <button id="finish" onclick="hide()">FINISH</button>
+</div>
+<div id="tab-shade"></div>
+
+</body>
+</html>
